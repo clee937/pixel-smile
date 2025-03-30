@@ -45,7 +45,7 @@ function isPointInImage(x: number, y: number) {
  * @param offChar - Character to render an
  * "off" pixel with.
  */
-function outputImage(onChar = "X", offChar) {
+function outputImage(onChar = "X", offChar = " ") {
   let text = "";
 
   for (let i = 0; i < imageData.length; i++) {

@@ -27,6 +27,12 @@ function drawRectangle(x: number, y: number, width: number, height: number) {
   drawVerticalLine(x + width - 1, y, height);
 }
 
+function drawDot(x: number, y: number) {
+  if (isPointInImage(x, y)) {
+    imageData[y * imageWidth + x] = true;
+  }
+}
+
 /**
  * Gets if the provided point is in the image.
  * @param x - The horizontal position within

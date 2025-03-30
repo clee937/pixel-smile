@@ -39,6 +39,12 @@ function drawHorizontalLine(x: number, y: number, length: number) {
   }
 }
 
+function drawVerticalLine(x: number, y: number, length: number) {
+  for (let i = 0; i < length; i++) {
+    drawDot(x, y + i);
+  }
+}
+
 /**
  * Gets if the provided point is in the image.
  * @param x - The horizontal position within

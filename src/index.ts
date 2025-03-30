@@ -11,7 +11,7 @@ drawDot(12, 2);
 // smile
 drawDot(4, 4);
 drawHorizontalLine(4, 5, 12);
-drawDot(15, "4");
+drawDot(15, 4);
 
 // output what we drew to the console
 outputImage();

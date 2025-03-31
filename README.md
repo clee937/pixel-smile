@@ -14,6 +14,10 @@ Pixel Smile is a program that creates pixel art and outputs a smiley face to the
 - The `isPointInImage()` function checks that the specified point is within the bounds of the image.
 - The `outputImage()` function iterates through the `imageData` array with a `for` loop. It uses a different character to represent each of the `true` and `false` values and prints the image to the console. The default parameters in this function allow for the user to customise the characters used for the pixels.
 
+## Preview
+
+![pixel-smile](/pixel-smile.png "image of pixel smile")
+
 ## Technologies used
 
 - TypeScript
